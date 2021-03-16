@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Alliance Capital Limited",
+    "slug": "iosacl",
+    "sdkVersion": "40.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./Assets/app_icon.png",
+    "androidStatusBar": {
+      "backgroundColor": "#274180"
+    },
+    "assetBundlePatterns": [
+      "./Assets/*.jpg",
+      "./Assets/*.png"
+    ],
+    "android": {
+      "package": "com.appfarm.acl",
+      "versionCode": 1,
+      "icon": "./assets/ic_launcher.png",
+      "useNextNotificationsApi": true
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 10
+    },
+    "splash": {
+      "image": "./Assets/cdhlogo.png",
+      "backgroundColor": "#fff",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "bundleIdentifier": "com.appfarm.acl",
+      "infoPlist": {
+        "NSPhotoLibraryAddUsageDescription": "This app uses storage to save photos"
+      }
+    },
+    "description": ""
+  }
+}
